@@ -1,0 +1,52 @@
+---
+title: "gather"
+author: "Asmer Asrar Safi"
+date: "2/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(readr)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+# Twitter Content Removal Requests Data
+
+A12 <-  read_csv("removal-requests-report-jan-jun-2012.csv") 
+B12 <-  read_csv("removal-requests-report-jul-dec-2012.csv")
+A13 <-  read_csv("removal-requests-report-jan-jun-2013.csv")
+B13 <-  read_csv("removal-requests-report-jul-dec-2013.csv")
+A13 <-  read_csv("removal-requests-report-jan-jun-2013.csv")
+B13 <-  read_csv("removal-requests-report-jul-dec-2013.csv")
+A14 <-  read_csv("removal-requests-report-jan-jun-2014.csv")
+B14 <-  read_csv("removal-requests-report-jul-dec-2014.csv")
+A15 <-  read_csv("removal-requests-report-jan-jun-2015.csv")
+B15 <-  read_csv("removal-requests-report-jul-dec-2015.csv")
+A16 <-  read_csv("removal-requests-report-jan-jun-2016.csv")
+B16 <-  read_csv("removal-requests-report-jul-dec-2016.csv", locale = locale(encoding = "windows-1252"))
+A17 <-  read_csv("removal-requests-report-jan-jun-2017.csv", locale = locale(encoding = "windows-1252"))
+B17 <-  read_csv("removal-requests-report-jul-dec-2017.csv", locale = locale(encoding = "windows-1252"))
+A18 <-  read_csv("removal-requests-report-jul-dec-2018.csv", locale = locale(encoding = "windows-1252"))
+B18 <-  read_csv("removal-requests-report-jul-dec-2018.csv", locale = locale(encoding = "windows-1252"))
+A19 <-  read_csv("removal-requests-report-jan-jun-2019.csv", locale = locale(encoding = "windows-1252"))
+
+# A - corresponds to the first half of the year, i.e. January to July. Hence,
+# A19 refers to January to July of 2019. # B - corresponds to the second half of
+# the year, i.e. July to December. Hence, B19 refers to July to December of 2019
+
+
+# Loading Freedom House Country Freedom Index Data:
+
+FreedomHouse <- read_excel("FreedomHouse.xlsx")
+
+# Loading Varieties of Democracy Country Data: 
+
+VDem <- read_csv("V-Dem-CY-Core-v9.csv")
+
+# Loading
+```
+

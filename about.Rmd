@@ -1,0 +1,25 @@
+---
+title: "Final-Project ABOUT"
+author: "Asmer Asrar Safi"
+date: "2/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Content Removal on Twitter - A Tale of 5 Countries. 
+
+##### Hello! My name is Asmer Asrar Safi, and I welcome you to the about page of my Final Project for Gov 1005. As a student activist in Pakistan, the status of free speech in many countries has often been of great concern to me. With governments in various countries, including mine, having all-pervasive access to the disemination of information, the power they hold to shape narratives and keep citizens aloof from the reality of things is indeed a dangerous phenomenon. 
+
+##### Social media too has not been exempt from this danger. Fortunately for us, however, Twitter releases data on all of the content removal requests made by governments around the world. My project aims to track 5 different countries: Turkey, Pakistan, India, Russia and Kingdom of Saudi Arabia, and try to establish whether or not there exists a correlation between the number of removal requests made at a specific time and times of crisis within these countries. This data is obtained directly from Twitter, which releases it online and to Harvard's Berkman Klein Center for Internet & Society. 
+
+##### Simultaneously, I will conduct an overall analysis of how "Freedom House" and "Varieties of Democracy" analyze  how "Free" a country is, and if that correlates with the number of removal requests a country makes on Twitter. Lastly, I will like to analyze how Twitter has been responding to the removal requests themselves, and if there has been a general rise in the social media giant's compliance with governments. 
+
+
+##### The link to my repository can be found here: 
+
+
+
+
